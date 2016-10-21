@@ -1,0 +1,149 @@
+#toolbar {
+	BORDER-BOTTOM: #dbdbdb 1px solid; HEIGHT: 25px; BACKGROUND-COLOR: #f4f3f2
+}
+#toolbar_content {
+	MARGIN: 0px auto; WIDTH: 952px; HEIGHT: 100%
+}
+#toolbar_left {
+	FLOAT: left; LINE-HEIGHT: 25px; HEIGHT: 100%
+}
+#toolbar_right {
+	FLOAT: right; LINE-HEIGHT: 25px; HEIGHT: 100%
+}
+#header {
+	MARGIN: 0px auto; WIDTH: 952px; HEIGHT: auto
+}
+#top {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; OVERFLOW: hidden; PADDING-TOP: 10px; HEIGHT: 60px
+}
+#logo {
+	FLOAT: left;  
+}
+.top_ad {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px 0px 0px 20px; WIDTH: 460px; HEIGHT: 60px
+}
+#loginButton {
+	FLOAT: right; WIDTH: 250px; HEIGHT: 53px
+}
+#loginButton UL {
+	FLOAT: right; HEIGHT: 21px
+}
+#loginButton LI {
+	DISPLAY: block; FLOAT: left; MARGIN-LEFT: 5px; LINE-HEIGHT: 21px; TEXT-ALIGN: center
+}
+#loginButton LI A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+#loginButton_register {
+	PADDING-LEFT: 5px; BACKGROUND: url(../images/btn_top.gif); WIDTH: 64px
+}
+#loginButton_login {
+	PADDING-LEFT: 5px; BACKGROUND: url(../images/btn_top.gif); WIDTH: 64px
+}
+#loginButton_publish {
+	PADDING-LEFT: 17px; BACKGROUND: url(../images/btn_top.gif) 0px -31px; WIDTH: 52px
+}
+.trust_logo {
+	BACKGROUND: url(../images/list_trust.gif); FLOAT: left; WIDTH: 20px; HEIGHT: 15px
+}
+.trust_text {
+	WIDTH: 120px
+}
+#trust {
+	MARGIN-TOP: 10px; FLOAT: right; WIDTH: 250px; HEIGHT: 25px
+}
+#trust LI {
+	FLOAT: left
+}
+#nav {
+	LEFT: 0px; POSITION: relative; TOP: 0px; HEIGHT: 32px
+}
+.menu {
+	Z-INDEX: 2; RIGHT: 8px; LEFT: 8px; WIDTH: 936px; POSITION: absolute; TOP: 2px; HEIGHT: 32px
+}
+.menu .no_line {
+	DISPLAY: block; BACKGROUND: url(../images/menubg01.gif) no-repeat 0px -32px; FLOAT: left; TEXT-ALIGN: center
+}
+#menuleft_space {
+	BACKGROUND: url(../images/nav_left.gif) no-repeat; FLOAT: left; WIDTH: 4px; HEIGHT: 32px
+}
+.menu_left {
+	FLOAT: left
+}
+.menu_left LI {
+	BACKGROUND: url(../images/menubg.gif) no-repeat 0px -32px; FLOAT: left; WIDTH: 75px; LINE-HEIGHT: 32px; HEIGHT: 32px; TEXT-ALIGN: center
+}
+.menu_left A {
+	DISPLAY: block; TEXT-DECORATION: none
+}
+.menu_left A:hover {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/menubg.gif) no-repeat; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_left A:visited{ text-decoration:none; }
+.menu_left A:active{ text-decoration:none;COLOR: #ffffff; }
+.menu_left .current A {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/menubg.gif) no-repeat; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_left .current A:hover {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/menubg.gif) no-repeat; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_left .current A:visited{ text-decoration:none;COLOR: #ffffff; }
+.menu_left .current A:active{ text-decoration:none;COLOR: #ffffff; }
+
+.menu_right {
+	FLOAT: right
+}
+.menu_right LI {
+	BACKGROUND: url(../images/menubg.gif) no-repeat 0px -32px; FLOAT: left; WIDTH: 75px; LINE-HEIGHT: 32px; HEIGHT: 32px; TEXT-ALIGN: center
+}
+.menu_right A {
+	DISPLAY: block; TEXT-DECORATION: none
+}
+.menu_right A:hover {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/menubg.gif) no-repeat; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_right A:visited{ text-decoration:none; }
+.menu_right A:active{ text-decoration:none;COLOR: #ffffff; }
+.menu_right .current A {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/menubg.gif) no-repeat; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_right .current A:hover {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/menubg.gif) no-repeat; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu_right .current A:visited{ text-decoration:none;COLOR: #ffffff; }
+.menu_right .current A:active{ text-decoration:none;COLOR: #ffffff; }
+#menuright_space {
+	BACKGROUND: url(../images/nav_right.gif) no-repeat; FLOAT: left; WIDTH: 4px; HEIGHT: 32px
+}
+.new {
+	Z-INDEX: 3; RIGHT: 100px; WIDTH: 37px; POSITION: absolute; TOP: -5px; HEIGHT: 27px
+}
+#search {
+	BACKGROUND: url(../images/search_bg.gif) ; WIDTH: 952px; HEIGHT: 75px; 
+}
+.search_left {
+	FLOAT: left; WIDTH: 750px; HEIGHT: 75px
+}
+.search_right {
+	FLOAT: right; WIDTH: 200px; HEIGHT: 75px
+}
+.search_right UL {
+	MARGIN: 15px 0px 0px 20px; COLOR: #ffffff; LINE-HEIGHT: 25px
+}
+.search_top {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 50px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; height:30px;
+}
+.search_top LI {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+
+.keywords {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 50px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; COLOR: #ffffff; PADDING-TOP: 3px
+}
+.keywords A {
+	COLOR: #ffffff
+}
+.keywords A:hover {
+	COLOR: #ffffff
+}
+#Header1_Label1 a{ color:#FFF; text-decoration:none}

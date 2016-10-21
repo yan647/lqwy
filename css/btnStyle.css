@@ -1,0 +1,363 @@
+﻿body 
+{
+	/* background-color: #B8B9B9; */
+		background-color:White;
+		margin-top:0px;	 	
+}
+.btn {
+   /* border: 1px solid #000;
+    cursor:hand;
+    border-color:Black;
+    background-color:White;  */  
+    
+    border: 1px solid #7b9ebd;
+    PADDING-RIGHT: 2px; 
+     PADDING-LEFT: 2px; 
+     FONT-SIZE:      12px; 
+     FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); 
+     CURSOR: hand; 
+     /* COLOR: black;  */
+     COLOR:white;
+     PADDING-TOP: 2px;
+    margin-top:5px;
+    }
+.btnOperate {
+ 
+    border: 1px solid #7b9ebd;
+    PADDING-RIGHT: 2px; 
+     PADDING-LEFT: 2px; 
+     FONT-SIZE:      12px; 
+     FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); 
+     CURSOR: hand; 
+     COLOR:black; 
+     PADDING-TOP: 2px;
+    height: 25px;
+}
+/*
+input[type="button"]
+{
+    border: 1px solid #7b9ebd;
+    PADDING-RIGHT: 2px; 
+     PADDING-LEFT: 2px; 
+     FONT-SIZE:      12px; 
+     FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); 
+     CURSOR: hand; 
+     COLOR: black; 
+     PADDING-TOP: 2px;
+    height: 20px;
+}*/
+
+/*被用户激活(在鼠标点击与释放之间发生的事件)时的样式*/
+.btn A:active
+{
+	font-size: 14pt;
+	color: black;
+	text-decoration: none;
+}
+/*超级链接鼠标悬停时的样式*/
+ .btn A:hover
+{
+	text-decoration: underline;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+}
+/*超级链接未被访问前的样式*/
+.btn A:link
+{
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+}
+/*在其链接地址已被访问过时的样式*/
+.btn A:visited
+{
+	font-size: 14px;
+	color: black;
+   text-decoration    : none; /*去掉链接下划线 */
+}
+
+#gvItem {
+border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+border:solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+border-width:1px 1px 1px 1px;  /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+#gvItem td 
+{
+	 border-collapse:collapse; 
+	  border: solid #999; 
+	  border-width:1px 0 0 1px; 
+	 white-space:nowrap;
+}
+	  
+#gvItem  th 
+{
+	border:solid #999;
+	border-width:0 1px 1px 0;
+	padding:2px;
+		 	white-space:nowrap;
+
+}
+#TablefujianAddUpdate {
+border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+border:solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+border-width:1px 1px 1px 1px;  /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+#TablefujianAddUpdate td 
+{
+	 border-collapse:collapse; 
+	  border: solid #999; 
+	  border-width:1px 0 0 1px; 
+}
+#TablefujianQuery {
+border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+border:solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+border-width:1px 1px 1px 1px;  /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+#TablefujianQuery td 
+{
+	 border-collapse:collapse; 
+	  border: solid #999; 
+	  border-width:1px 0 0 1px; 
+}
+
+#Table1 {
+border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+border:solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+border-width:1px 1px 1px 1px;  /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+#Table1 td 
+{
+	 border-left: 1px solid #999;
+    border-right: 0 solid #999;
+    border-top: 1px solid #999;
+    border-bottom: 0 solid #999;
+    border-collapse:collapse;
+}
+#Table2 {
+border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+border:solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+border-width:1px 1px 1px 1px;  /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+#Table2 td 
+{
+	 border-collapse:collapse; 
+	  border: solid #999; 
+	  border-width:1px 0 0 1px; 
+}
+
+#gvBasicInfo {
+border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+border:solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+border-width:1px 1px 1px 1px;  /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+
+
+}
+
+#gvBasicInfo td 
+{
+       
+	 border-collapse:collapse; 
+	  border: solid #999; 
+	  border-width:1px 0 0 1px; 
+	 white-space:nowrap;
+}
+	  
+#gvBasicInfo th
+{
+    border: solid #999;
+    border-width: 0 1px 1px 0;
+    padding: 2px;
+    white-space: nowrap;
+    background-image: url('../../image/bggvhead.jpg');
+    background-repeat: repeat-x;
+    font-size:13px;
+    height:25px;
+}
+ 
+#gvBasicInfo0 {
+	border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+	border:solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+	border-width:1px 1px 1px 1px; /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+		 	white-space:nowrap;
+}
+#gvBasicInfo0 td 
+{
+	 border-collapse:collapse; 
+	 border: solid #999; 
+	 border-width:1px 0 0 1px; 
+	 	 	white-space:nowrap;
+}
+	  
+#gvBasicInfo0  th 
+{
+	border:solid #999;
+	border-width:0 1px 1px 0;
+	padding:2px;
+		 	white-space:nowrap;
+}
+/*begin form2选择行进行后显示的单条主表记录*/
+#gvBasicInfo0Sub td 
+{
+	 border-collapse:collapse; 
+	 border: solid #999; 
+	 border-width:1px 0 0 1px; 
+	 	white-space:nowrap;
+}
+	  
+#gvBasicInfo0Sub  th 
+{
+	border:solid #999;
+	border-width:0 1px 1px 0;
+	padding:2px;
+		white-space:nowrap;
+}
+/*end form2选择行进行后显示的单条主表记录*/
+#TableShortMessage {
+border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+border:solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+border-width:1px 1px 1px 1px;  /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+#TableShortMessage td 
+{
+	 border-left: 1px solid #999;
+    border-right: 0 solid #999;
+    border-top: 1px solid #999;
+    border-bottom: 0 solid #999;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+.TableView_Print {
+border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+border:solid black; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+border-width:1px 1px 1px 1px;  /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+.TableView_Print td 
+{
+	 border-collapse:collapse; 
+	  border: solid black; 
+	  border-width:1px 0 0 1px; 
+}
+
+
+.TableAdd_Update {
+border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+border:solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+border-width:1px 1px 1px 1px;  /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+.TableAdd_Update td 
+{
+	 border-collapse:collapse; 
+	  border: solid #999; 
+	  border-width:1px 0 0 1px; 
+}
+
+
+.gvBasicInfo {
+border-collapse:collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+border:solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+border-width:1px 1px 1px 1px;  /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+  margin-top:5px;
+}
+/*
+.gvBasicInfo caption
+{ 
+    background-image: url('../../image/gvbgCaption.jpg');
+    font-size:14px;
+    text-align:left;
+    height:15px;
+ 
+    color:White;
+    
+}*/
+
+
+.gvBasicInfo td 
+{
+       
+	 border-collapse:collapse; 
+	  border: solid #999; 
+	  border-width:1px 0 0 1px; 
+	 white-space:nowrap;
+	 color:Black;
+	 font-size:12px;
+	 padding:0 8px;
+	 line-height:25px;
+}
+	  
+.gvBasicInfo th
+{  
+     padding:0 14px;
+   color:#333; 
+    border: solid #999;
+    border-width: 0 1px 1px 0;
+    padding: 2px;
+    white-space: nowrap;
+    background-image: url('../../image/bggvhead.jpg');
+    background-repeat: repeat-x;
+    font-size:13px;
+}
+
+
+/*Form123中的添加，修改， 查看部分左边列名样式*/
+.Form123AddUpdateViewtdBgColog
+{
+     background-color:#F7F7F7;
+     color:#000000;
+     font-size:small;
+}
+.Form123AddUpdateViewtdFontStyle
+{  
+     font-size:small;
+}
+
+ 
+  .fieldsetScroll {
+      overflow:scroll;
+      -webkit-overflow-scrolling:touch;
+      -moz-overflow-scrolling:touch;
+      -o-overflow-scrolling:touch ;
+    }
+  .divScroll{
+     OVERFLOW:auto;
+     width:100%;
+     height:120%
+        }
+  /*begin 查询部分的样式*/
+ 
+
+.TableQuery {
+              border-collapse: collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+            border: solid #999; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+            border-width: 1px 0 0 1px; /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+
+/*border-collapse:collapse;*/ /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+/*border:solid #999;*/ /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+/*border-width:1px 1px 1px 1px;*/  /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+}
+.TableQuery td 
+{
+                    border: solid #999;
+                border-width: 0 1px 1px 0;
+                padding: 2px;
+	 /*border-collapse:collapse;*/ 
+	  /*border: solid #999;*/ 
+	  /*border-width:1px 0 0 1px;*/ 
+}
+  /*end 查询部分的样式*/
+  /*begin 校验提示*/
+  .errorMessage
+  {
+  color:red;
+  }
+    .actionMessage
+  {
+  color:red;
+  }
+  /*end 校验提示*/
+  
+ 
+
+ 
+

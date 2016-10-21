@@ -1,0 +1,112 @@
+﻿body
+{
+	width: 100%;
+	position: relative;
+	font-size: 12px;
+	color: black;
+	background-color: ghostwhite;
+	text-align: center;
+	margin-top: 0px;
+	left: 1cm;
+}
+
+/*被用户激活(在鼠标点击与释放之间发生的事件)时的样式*/
+A:active
+{
+	font-size: 14pt;
+	color: black;
+	text-decoration: none;
+}
+/*超级链接鼠标悬停时的样式*/
+A:hover
+{
+	text-decoration: underline;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+}
+/*超级链接未被访问前的样式*/
+A:link
+{
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+}
+/*在其链接地址已被访问过时的样式*/
+A:visited
+{
+	font-size: 14px;
+	color: black;
+   text-decoration    : none; /*去掉链接下划线 */
+}
+/*设置管理后台主体内容部分表格样式*/
+table
+{
+	/*width: 100%;*/
+	vertical-align: middle;
+	color: #ffffff;
+	border-collapse: collapse; /* 关键属性：合并表格内外边框(其实表格边框有2px，外面1px，里面还有1px哦) */
+	border: solid #76CDA0; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
+	border-width: 1px 0 0 1px; /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
+	font-size: 14px;
+	float: none;
+	height: auto;
+	background-color: white;
+	background-image: url(images/bg_table.gif);
+	background-repeat: no-repeat;
+	background-position: left 50%;
+	font-size: 14px;
+	font-family: 宋体;
+}
+ 
+table th, table td
+{
+	border: solid #76CDA0;
+	border-width: 0 1px 1px 0;
+	padding: 2px;
+	color: #333333;
+	font-size: 14px;
+}
+tfoot td 
+{
+	text-align:center;
+		font-size: 14px;
+	}
+	/*控制分页的层*/
+#DivPage
+{
+	width: 8px;
+	text-align: center;
+	vertical-align: top;
+}
+/*控制上传图片的层*/	
+#DivUpload
+{
+	font-size: 12px;
+	background-color: #ccccff;
+	text-decoration: none;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+}
+/*设计按纽样式
+	background: #ccff99;
+	border: 1;
+
+*/
+
+.btn 
+{ 
+BORDER-RIGHT: #7b9ebd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7b9ebd 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); BORDER-LEFT: #7b9ebd 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #7b9ebd 1px solid 
+}
+/*显示右上角水图印
+#bgRightTopLayer
+{
+	position:absolute;
+	width:50px;
+	height:50px;
+	z-index:1;
+	right: 0px;
+	top: 0px;
+	background-image: url(../images/bg_RightTop.jpg);
+}*/

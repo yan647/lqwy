@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+  <style type="text/css">
+ 
+
+  .form_control {
+    border: 1px #ccc solid;
+  display: table-cell;
+  vertical-align: top;
+  float: none;
+  width: auto;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    border: none;
+    width: 100%;
+  }
+
+  .frm_controls.active {
+    border: 1px #32BC61 solid;
+    background-color: #fff;
+  }
+
+   .frm_controls.error {
+    border: 1px #f00 solid;
+    background-color: #FBF9BB;
+  }
+
+  .form_control.error input[type="text"],
+  .form_control.error input[type="password"] {
+    background-color: #FBF9BB;
+    color: #f00;
+  }
+
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border: none;
+    outline: none;
+  }
+
+  .frm_controls .valid_message {
+    color: #32BC61;
+     position: absolute;
+   left: 310px;
+    top: 0px;
+    /*  width: 200px; */
+        width: 281px;
+  }
+  .frm_controls.valid_message {
+    color: #32BC61;
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    width: 200px;
+  }
+
+  .frm_controls.error .valid_message {
+    color: #f00;
+  }
+
+  .frm_controls.success .valid_message {
+    background: url(../images/sucess.png) no-repeat;
+    left: auto;
+    right: 5px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .none {
+    display: none;
+  }
+.frm_input_box1 {
+	display:inline-block;
+	position:relative;
+	height:30px;
+	line-height:30px;
+	vertical-align:middle;
+	width:278px;
+	font-size:14px;
+	padding:0 10px;
+	border:1px solid #BBBCBE;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	background-color:#fff
+}

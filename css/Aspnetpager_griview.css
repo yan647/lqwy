@@ -1,0 +1,107 @@
+﻿.GridViewStyle {
+    border-right: 2px solid #A7A6AA;
+    border-bottom: 2px solid #A7A6AA;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    padding: 4px;
+}
+
+    .GridViewStyle a {
+        color: #FFFFFF;
+    }
+
+.GridViewHeaderStyle th {
+    border-left: 1px solid #EBE9ED;
+    border-right: 1px solid #EBE9ED;
+}
+
+.GridViewHeaderStyle {
+    background-color: #5D7B9D;
+    font-weight: bold;
+    color: White;
+}
+
+.GridViewFooterStyle {
+    background-color: #5D7B9D;
+    font-weight: bold;
+    color: White;
+}
+
+.GridViewRowStyle {
+    background-color: #F7F6F3;
+    color: #333333;
+}
+
+.GridViewAlternatingRowStyle {
+    background-color: #FFFFFF;
+    color: #284775;
+}
+
+    .GridViewRowStyle td, .GridViewAlternatingRowStyle td {
+        border: 1px solid #EBE9ED;
+    }
+
+.GridViewSelectedRowStyle {
+    background-color: #E2DED6;
+    font-weight: bold;
+    color: #333333;
+}
+
+.GridViewPagerStyle {
+    background-color: #284775;
+    color: #FFFFFF;
+}
+
+    .GridViewPagerStyle table /* to center the paging links*/ {
+        margin: 0 auto 0 auto;
+    }
+/*分页控件也添加样式，当然gridview样式和分页样式在同一个css中了*/
+.paginator {
+    font: 14px Arial, Helvetica, sans-serif;
+    padding: 10px 20px 10px 0;
+    margin: 0px;
+}
+
+    .paginator a {
+        border: solid 1px #ccc;
+        color: #0063dc;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .paginator a:visited {
+            padding: 1px 6px;
+            border: solid 1px #ddd;
+            background: #fff;
+            text-decoration: none;
+        }
+
+    .paginator .cpb {
+        border: 1px solid #F50;
+        font-weight: 700;
+        color: #F50;
+        background-color: #ffeee5;
+    }
+
+    .paginator a:hover {
+        border: solid 1px #F50;
+        color: #f60;
+        text-decoration: none;
+    }
+
+    .paginator a, .paginator a:visited, .paginator .cpb, .paginator a:hover {
+        float: left;
+        height: 16px;
+        line-height: 16px;
+        min-width: 10px;
+        _width: 10px;
+        margin-right: 5px;
+        text-align: center;
+        white-space: nowrap;
+        font-size: 14px;
+        font-family: Arial,SimSun;
+        padding: 0 3px;
+    }
+
+    
+

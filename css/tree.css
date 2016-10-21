@@ -1,0 +1,33 @@
+﻿body
+{
+	margin: 0px;
+	color:Blue;
+}
+
+/*被用户激活(在鼠标点击与释放之间发生的事件)时的样式*/
+A:active
+{
+	font-size: 14pt;
+	color: green;
+}
+/*超级链接鼠标悬停时的样式*/
+A:hover
+{ 
+	color: green;
+	font-size: 14px;
+
+}
+
+/*超级链接未被访问前的样式*/
+A:link
+{
+	font-size: 14px;
+	color: blue;
+	
+}
+/*在其链接地址已被访问过时的样式*/
+A:visited
+{
+	font-size: 14px;
+	/*color: blue; 颜色冲突的问题,加上着一句就看不出颜色变化了 */
+}
