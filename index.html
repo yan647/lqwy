@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>
+			联桥网云信息科技（长沙）有限公司
+		</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+		<style>
+			body {
+				font-family: "微软雅黑";
+			}
+			
+			ul,
+			ol {
+				margin-top: 100px;
+				margin-bottom: 14.5px;
+			}
+			
+			#homepage #overview {
+				text-align: center;
+				/*background: #b6c0cc;*/
+				height: 350px;
+				/*background: url('../images/homepage/overview.jpg') no-repeat;*/
+				background-position: center;
+				background-size: cover;
+			}
+			
+			#homepage #overview h2 {
+				line-height: 1.5;
+				color: #ffffff;
+				font-weight: 600;
+				/*border-bottom: 1px solid rgba(255, 255, 255, 0.5);*/
+				padding-bottom: 12px;
+				line-height: 55px;
+			}
+			
+			#homepage .homepage-panel .content-parent .content,
+			#homepage .homepage-panel .content-parent img {
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			
+			#homepage #overview p {
+				padding-top: 100px;
+				font-size: 20px;
+				font-weight: 300;
+				line-height: 1.3;
+				color: #ffffff;
+			}
+			
+			#homepage #overview .content-parent {
+				height: 350px;
+			}
+			
+			#bootstrap-footer {
+				background-color: #55b3e7;
+				padding: 30px 0 0 0;
+			}
+			
+			.panel1 {
+				background: url(img/banner_index3.jpg);
+				/*background-repeat: no-repeat;
+				background-position: center;*/
+			}
+			
+			ul li p {
+				font-size: 20px;
+			}
+			
+			ul li img {
+				width: 100px;
+			}
+			
+			.li_new {
+				width: 350px;
+			}
+		</style>
+
+		
+		<link rel="stylesheet" type="text/css" href="css/mycss.css">
+<link href="css/bootstrap.css" />
+<link href="css/bootstrap.min.css" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.rotate.min.js"></script>
+	</head>
+
+	<body id="homepage" class="" style="margin:0;padding:0;">
+		 
+<iframe id="header" name="header" src="header.html" width="100%" height="400" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no" ></iframe>
+
+		<div class="panels">
+		 
+		 
+			<div class="homepage-panel" style="height: 300px;">
+				<div class="container text-center">
+					<ul class="list-inline text-center" style="padding-left: 80px;">
+						<li class="li_new"><a href="product1.html" target="_parent">
+							<img id="img1" src="img/manufacture.png" />
+							<p>物联网设备制造商</p></a>
+						</li>
+						<li class="li_new"><a href="product2.html" target="_parent"  >
+							<img id="img2" src="img/AppCloud.png" />
+							<p>应用云平台开发商</p></a>
+						</li>
+						<li class="li_new">
+							<!--
+                                	class="col-xs-6 col-sm-3 col-sm-offset-1"
+                                --><a href="product3.html" target="_parent"  >
+							<img id="img3"  src="img/product.png" />
+							<p>物联网产品</p></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+<iframe id="footer" name="footer" src="footer.html" style="position:relative;bottom:-25px" width="100%" height="160" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+<!--		<footer id="bootstrap-footer" class="hidden-native">
+			<div class="container text-center">
+				<p>Copyright &copy 2015 &nbsp;联桥网云信息科技（长沙）有限公司 &nbsp;版权所有 &nbsp;</p>
+					<p>公司地址长沙高新开发区麓松路459号东方红小区延农综合楼14楼1437C房&nbsp;联系方式：0000-00000000；传真：0000-000000</p>
+				<p>备案号：
+					<a href="http://www.miitbeian.gov.cn/">湘ICP备15019292号</a>
+				</p>
+			</div>
+
+		</footer> -->
+</body>
+
+</html>
+<script type="text/javascript" src="js/rotate/jquery.min.js"></script>
+<script type="text/javascript" src="js/rotate/jquery.rotate.min.js"></script>
+<script language="javascript">
+       function SetOver1() {
+		   $("#img1")).rotate({animateTo:360});
+		// image.style.transform = 'rotate(360deg)';
+        // image.style.cssText = "-webkit-transform: rotate(0deg);-moz-transform: rotate(360deg);transform:rotate(0deg);-o-transform:rotate(360deg);";  
+    }     
+	  function SetOut1() {
+		   $("#img1")).rotate({animateTo:0});
+		// image.style.transform = 'rotate(360deg)';
+        // image.style.cssText = "-webkit-transform: rotate(0deg);-moz-transform: rotate(360deg);transform:rotate(0deg);-o-transform:rotate(360deg);";  
+    }
+$(document).ready(function(){
+$("#img1").rotate({ 
+   bind: 
+     { 
+        mouseover : function() { 
+            $(this).rotate({animateTo:360});
+        },
+        mouseout : function() { 
+            $(this).rotate({animateTo:0});
+        }
+     } 
+   
+});
+
+$("#img2").rotate({ 
+   bind: 
+     { 
+        mouseover : function() { 
+            $(this).rotate({animateTo:360});
+        },
+        mouseout : function() { 
+            $(this).rotate({animateTo:0});
+        }
+     } 
+   
+});
+
+$("#img3").rotate({ 
+   bind: 
+     { 
+        mouseover : function() { 
+            $(this).rotate({animateTo:360});
+        },
+        mouseout : function() { 
+            $(this).rotate({animateTo:0});
+        }
+     } 
+   
+});
+});
+</script>
