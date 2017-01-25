@@ -98,10 +98,10 @@ ul li img {
 		position: relative;
 	}
 	.logo_mobile{
-		display: block;
+		display:block;
 	}
-	.logo_main{
-		display: none;
+	.logo_ul{
+		display:none;
 	}
 	.img3_text{
 		padding-top:30px;
