@@ -18934,7 +18934,7 @@ header.navbar .manager-content-nav .nav-button {
 
 
 
-#bootstrap-footer a {
+/*#bootstrap-footer a {
 	color: #eeeeee;
 }
 
@@ -18945,7 +18945,7 @@ header.navbar .manager-content-nav .nav-button {
 
 #bootstrap-footer a:active {
 	color: #eeeeee;
-}
+}*/
 
 #bootstrap-footer ul {
 	padding: 0;
@@ -19007,11 +19007,11 @@ header.navbar .manager-content-nav .nav-button {
 	text-align: center;
 }
 
-#homepage .homepage-panel h1,
+/*#homepage .homepage-panel h1,
 #homepage .homepage-panel h2,
 #homepage .homepage-panel p {
 	margin: 0%;
-}
+}*/
 
 #homepage .homepage-panel img {
 	margin: 0 auto;

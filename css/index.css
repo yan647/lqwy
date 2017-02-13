@@ -1,145 +1,68 @@
-ul li img {
-	width: 100px;
-}
-
-#homepage #overview {
+.wrap{
+	overflow: hidden;
 	text-align: center;
-	background-position: center;
-	background-size: cover;
 }
 
-#homepage #overview h2 {
-	line-height: 1.5;
-	color: #ffffff;
-	font-weight: 600;
-	padding-bottom: 12px;
-	line-height: 55px;
+#slider{
+	text-align: center;
+	width: 1000px;
+    margin: 2px auto;
+}
+#slider img{
+	height:100%;
+	width:100%;
+}
+.wrap ul{
+	position: absolute;
+    
+}
+.wrap ul li{
+	float:left;
+	margin:0 10px;
 }
 
-#homepage .homepage-panel .content-parent .content,
-#homepage .homepage-panel .content-parent img {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+#prev,#next{
+	position: absolute;
+    top: 200px;  
+}
+#prev{
+	left: 200px;
+}
+#next{
+    right: 200px;
 }
 
-#homepage #overview p {
-	color: #ffffff;
+.li_img{
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	/*background-color: #fff;*/
+	width:30px;
 }
 
-#homepage #overview .content-parent {
-	height: 350px;
-}
-
-#bootstrap-footer {
-	background-color: #55b3e7;
-}
 @media (min-width: 768px) {/*桌面*/
-	.panel1 {
-		background: url(../img/banner_index1.jpg);
+	#slider{
+		width: 1000px;
 	}
-	#overview{
-		padding: 4rem 20rem;
+	.wrap{
+		height:290px;
 	}
-	.box{
-		display:flex;
-		flex-direction: row-reverse;
-		justify-content: center;
+	.wrap ul{
+		top: 310px;
+	    right: 18rem;
 	}
-	.list-inline>li {
-		display: inline-block;
-		padding-left: 4rem;
-		padding-right: 4rem;
-	}
-	.method{
-		font-size: 3rem;
-	}
-	.list-inline{
-		margin:45px 0;
-	}
-	#bootstrap-footer {
-		position: absolute;
-		bottom: 0px;
-		width: 100%;
-	}
-	.logo_mobile{
-		display:none;
-	}
-	.logo_main{
-		display: block;
-	}
-
 }
+
 
 @media (max-width: 767px) {	/*手机*/
-	.panel1 {
-		background: url(../img/banner_index1_.jpg);	
-	}	
-	#overview{
-		padding: 4rem 4rem;
+	#slider{
+		width: 100%;
+		height:100%;
 	}
-	.box{
-		display:flex;
-		flex-direction: column;
+	.wrap{
+		height:240px;
 	}
-	.list-inline>li {
-		display: inline-block;
-		padding-left: 2px;
-		padding-right: 2px;
-	}
-	.method{
-		font-size: 3.5rem;
-
-	}
-	.list-inline{
-		margin:25px 0;
-	}
-	#bootstrap-footer {
-		position: relative;
-	}
-	.logo_mobile{
-		display:block;
-	}
-	.logo_ul{
-		display:none;
-	}
-	.img3_text{
-		padding-top:30px;
-	}
-	.li_new p{
-		width:95px;
+	.wrap ul{
+		top:260px;
+	    right: 10rem;
 	}
 }
-
-p {
-	margin: 0 ;
-	font-family: "微软雅黑";
-}
-
-.logo_main img,
-.logo_mobile img{
-	width: 100%;
-}
-
-.logo_main,
-.logo_mobile{
-	float: left;
-	width:150px;
-
-}
-.content{
-	margin:0px 5px;
-}
-
-.navbar-nav{
-	background-color: white;
-}
-
-.collapse .navbar-collapse{
-	position:absolute;
-}
-
-.container span{
-	margin-right:5px;
-}
-

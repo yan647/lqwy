@@ -1,0 +1,175 @@
+.left{
+	float:left;
+}
+.li_new img {
+	width: 100px;
+}
+.li_img{
+list-style:none;
+}
+#homepage #overview {
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+}
+
+#homepage #overview h2 {
+	line-height: 1.5;
+	color: #ffffff;
+	font-weight: 600;
+	padding-bottom: 12px;
+	line-height: 55px;
+}
+
+#homepage .homepage-panel .content-parent .content,
+#homepage .homepage-panel .content-parent img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#homepage #overview p {
+	color: #ffffff;
+}
+
+#homepage #overview .content-parent {
+	height: 350px;
+}
+
+#bootstrap-footer{
+	/*background-color: #55b3e7;*/
+	border-top-color: #ddd;
+    border-top-width: 1px;
+    border-top-style: solid;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.img_text div{
+	margin:0 4px;
+}
+@media (min-width: 768px) {/*桌面*/
+	#overview{
+		padding: 4rem 20rem;
+	}
+	.box{
+		display:flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+	}
+	.list-inline>li {
+		display: inline-block;
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+	.list-inline{
+		margin:45px 0;
+	}
+	#bootstrap-footer {
+		position: absolute;
+		width: 100%;
+	}
+	.logo_mobile{
+		display:none;
+	}
+	.logo_main{
+		display: block;
+	}
+	.img_text_product3{
+	display: flex;
+	flex-direction: column;
+	flex-direction: row-reverse;
+	}
+	.img_text img{
+
+	}
+}
+
+@media (max-width: 767px) {	/*手机*/
+	#overview{
+		padding: 4rem 4rem;
+	}
+	.box{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.list-inline>li {
+		display: inline-block;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.list-inline{
+		margin:25px 0;
+	}
+	#bootstrap-footer {
+		position: relative;
+	}
+	.logo_mobile{
+		display:block;
+	}
+	.logo_ul{
+		display:none;
+	}
+	.img3_text{
+		padding-top:30px;
+	}
+	.li_new p{
+		width:95px;
+	}
+	.navbar-nav li{
+		border-top: 1px solid #ddd;
+	}
+	/*.img_text{
+	text-align: center;
+	}*/
+	.tel,.fax{
+		display: none;
+	}
+}
+
+p {
+	margin: 0 ;
+	font-family: "微软雅黑";
+}
+
+.logo_main img,
+.logo_mobile img{
+	width: 100%;
+}
+
+.logo_main,
+.logo_mobile{
+	float: left;
+	width:150px;
+
+}
+.content{
+	margin:0px 5px;
+}
+
+.navbar-nav{
+	background-color: white;
+	padding-left:2px;
+}
+
+.collapse .navbar-collapse{
+	position:absolute;
+}
+
+.container span{
+	margin-right:5px;
+}
+
+h2{
+	margin: 5px auto;
+}
+
+.img_text div img,.img_text_product3 div img{
+width:30rem;
+margin: 5px;
+}
+
+.contact_us{
+	width:20rem;
+}
