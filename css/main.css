@@ -1,11 +1,13 @@
 .left{
 	float:left;
 }
-.li_new img {
-	width: 100px;
-}
+
 .li_img{
 list-style:none;
+}
+.navbar{
+	-webkit-box-shadow:  0 0 3px rgba(89,89,89,.25);
+	box-shadow:  0 0 3px rgba(89,89,89,.25);
 }
 #homepage #overview {
 	text-align: center;
@@ -41,14 +43,18 @@ list-style:none;
 	border-top-color: #ddd;
     border-top-width: 1px;
     border-top-style: solid;
-	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-	box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.3);
+	 -webkit-box-shadow:  0 0 3px rgba(89,89,89,.25);
+	box-shadow:  0 0 3px rgba(89,89,89,.25); 
 }
 
 .img_text div{
 	margin:0 4px;
 }
-@media (min-width: 768px) {/*桌面*/
+@media (min-width:1200px){/*大屏*/
+
+}
+
+@media (min-width: 768px) {/*普通桌面*/
 	#overview{
 		padding: 4rem 20rem;
 	}
@@ -57,16 +63,12 @@ list-style:none;
 		flex-direction: row-reverse;
 		justify-content: center;
 	}
-	.list-inline>li {
-		display: inline-block;
-		padding-left: 4rem;
-		padding-right: 4rem;
-	}
+	
 	.list-inline{
 		margin:45px 0;
 	}
 	#bootstrap-footer {
-		position: absolute;
+		/* position: absolute; */
 		width: 100%;
 	}
 	.logo_mobile{
@@ -103,7 +105,7 @@ list-style:none;
 		margin:25px 0;
 	}
 	#bootstrap-footer {
-		position: relative;
+		position:relative;
 	}
 	.logo_mobile{
 		display:block;
@@ -120,9 +122,6 @@ list-style:none;
 	.navbar-nav li{
 		border-top: 1px solid #ddd;
 	}
-	/*.img_text{
-	text-align: center;
-	}*/
 	.tel,.fax{
 		display: none;
 	}

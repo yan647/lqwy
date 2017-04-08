@@ -13,8 +13,7 @@
 	width:100%;
 }
 .wrap ul{
-	position: absolute;
-    
+	position: absolute;  
 }
 .wrap ul li{
 	float:left;
@@ -39,7 +38,29 @@
 	width:30px;
 }
 
-@media (min-width: 768px) {/*桌面*/
+@media (min-width:1200px){/*大屏*/
+	.wrap {
+		height: 350px;
+	}
+	.list-inline{
+		margin:117px 0;
+	}
+	.list-inline>li {
+		display: inline-block;
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+.wrap ul{
+	position: absolute;  
+	top:365px;
+	right:500px;
+}
+.li_new img {
+	width: 120px;
+}
+}
+
+@media (min-width: 768px) and (max-width:1200px) {/*桌面*/
 	#slider{
 		width: 1000px;
 	}
@@ -50,6 +71,14 @@
 		top: 310px;
 	    right: 18rem;
 	}
+	.list-inline>li {
+		display: inline-block;
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+	.li_new img {
+	width: 100px;
+}
 }
 
 
@@ -65,4 +94,12 @@
 		top:260px;
 	    right: 10rem;
 	}
+	.list-inline>li {
+		display: inline-block;
+		padding-left: 0rem;
+		padding-right: 0rem;
+	}
+	.li_new img {
+	width: 100px;
+}
 }
