@@ -13,7 +13,26 @@
 		<link rel="stylesheet" type="text/css" href="css/mycss.css">
 		<link href="css/bootstrap.css" />
 		<link href="css/bootstrap.min.css" />
-
+		<style type="text/css">
+	.homepage-panel .container{
+		width:405px;
+	}
+		@media (min-width:1200px){/*大屏*/
+			.homepage-panel{
+				height: 732px;
+			}
+		}
+		@media (min-width: 768px) and (max-width:1200px) {/*普通桌面*/
+			.homepage-panel{
+				height: 500px;
+			}
+		}
+		@media (max-width: 767px) {	/*手机*/
+			.homepage-panel{
+				height: 320px;
+			}
+		}
+	</style>
 	</head>
 
 	<body id="homepage" class="" style="margin:0;padding:0;">
@@ -81,7 +100,7 @@
 	</nav>							
 </header>		
 		<div class="panels">		 	 
-			<div class="homepage-panel" style="height:450px;">
+			<div class="homepage-panel">
 				<div class="container">
 				<h2 class="text-center">联系我们</h2>
 				<p>招聘邮箱：<a href="mailto:contactus@gosafenet.com">contactus@gosafenet.com</a> </p>				
